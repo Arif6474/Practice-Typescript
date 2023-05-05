@@ -63,3 +63,9 @@ calculate(10, 20, (x, y) => x + y)
 calculate(10, 20, (x, y) => x - y)
 
 calculate(10, 20, (x, y) => x * y)
+
+type addNumbersType = (num1 : number, num2 : number, num3 : number) => number
+const addNumbers : addNumbersType =(num1, num2, num3) => num1 + num2 + num3;
+
+type rollNumberType = number[]
+const rollNums : rollNumberType = [1, 2, 3, 4, 5, 6]
