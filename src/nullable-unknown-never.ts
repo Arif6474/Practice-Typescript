@@ -4,15 +4,15 @@
 
 const searchName = (value: string | null) => {
 
-if (value === null) {
+    if (value === null) {
 
-console.log('there is nothing to search');
+        console.log('there is nothing to search');
 
-} else {
+    } else {
 
-console.log('Searching...');
+        console.log('Searching...');
 
-}
+    }
 
 };
 
@@ -22,43 +22,43 @@ searchName(null);
 
 //mk^-1 --> ms^-1
 
-const getMyCarSpeed=(speed:unknown)=>{
+const getMyCarSpeed = (speed: unknown) => {
 
-if(typeof speed ===  'number'){
+    if (typeof speed === 'number') {
 
-const convertedSpeed = (speed*1000)/3600
+        const convertedSpeed = (speed * 1000) / 3600
 
-console.log(`my speed is ${convertedSpeed}`);
+        console.log(`my speed is ${convertedSpeed}`);
 
-}
+    }
 
-if (typeof speed === 'string'){
+    if (typeof speed === 'string') {
 
-const [value,unit] =speed.split(' ');  //['10', 'kmh^-1']
+        const [value, unit] = speed.split(' ');  //['10', 'kmh^-1']
 
-const convertedSpeed = (parseFloat(value)*1000)/3600;
+        const convertedSpeed = (parseFloat(value) * 1000) / 3600;
 
-console.log(`my speed is ${convertedSpeed}`);
+        console.log(`my speed is ${convertedSpeed}`);
 
-}else{
+    } else {
 
-console.log('there is wrong type');
+        console.log('there is wrong type');
 
-}
+    }
 
 }
 
 getMyCarSpeed(10);
 
-getMyCarSpeed('10 kmh^-1') ;
+getMyCarSpeed('10 kmh^-1');
 
 getMyCarSpeed(true);
 
 // never type
 
-function throwError(message:string):never{
+function throwError(message: string): never {
 
-throw new Error (message)
+    throw new Error(message)
 
 }
 

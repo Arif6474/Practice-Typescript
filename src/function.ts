@@ -45,7 +45,7 @@ const person: {
 
 function addNumber(num1: number, num2: number = 10): number {
 
-return num1 + num2;
+    return num1 + num2;
 
 }
 
@@ -61,26 +61,26 @@ myFriends.push(...newFriends);
 
 // rest paaremeter
 
-const greetfriends = (...friends:string[]): void => friends.forEach((friend)=>console.log(`hi ${friend}`)
+const greetfriends = (...friends: string[]): void => friends.forEach((friend) => console.log(`hi ${friend}`)
 
 )
 
-greetfriends("kasem", "hasem", "badol","dablu", "bablu", "rasel");
+greetfriends("kasem", "hasem", "badol", "dablu", "bablu", "rasel");
 
 
 // Destructuring
 
 const [firstFriend] = myFriends
-console.log(firstFriend); 
+console.log(firstFriend);
 
-const myBestFrined ={
+const myBestFrined = {
 
-fullName:"abdul rahim",
+    fullName: "abdul rahim",
 
-age: 25,
+    age: 25,
 
 }
 
-const {fullName} = myBestFrined;
+const { fullName } = myBestFrined;
 
-console.log({fullName});
+console.log({ fullName });

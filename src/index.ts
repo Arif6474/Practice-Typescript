@@ -3,7 +3,7 @@
 
 let course = "Next Level Web development";
 
-course= "Next Level Devlopment";
+course = "Next Level Devlopment";
 
 let rollNumber = 123;
 
