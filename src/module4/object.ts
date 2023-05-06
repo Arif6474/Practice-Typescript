@@ -12,19 +12,19 @@
 //     }
 //     makeSound() {
 //         console.log(`The ${this.name} says ${this.sound}`);
-        
+
 //     }
 // }
 class Animal {
-  
-    constructor(public name: string,public species: string,public sound: string) {
-      
+
+    constructor(public name: string, public species: string, public sound: string) {
+
     }
     makeSound() {
         console.log(`The ${this.name} says ${this.sound}`);
-        
+
     }
 }
 
-const dog = new Animal('Menu', 'dog' ,'ghew ghew')
+const dog = new Animal('Menu', 'dog', 'ghew ghew')
 dog.makeSound()
