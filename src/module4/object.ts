@@ -15,7 +15,7 @@
 
 //     }
 // }
-class Animal {
+class Animal1 {
 
     constructor(public name: string, public species: string, public sound: string) {
 
@@ -26,5 +26,5 @@ class Animal {
     }
 }
 
-const dog = new Animal('Menu', 'dog', 'ghew ghew')
+const dog = new Animal1('Menu', 'dog', 'ghew ghew')
 dog.makeSound()
