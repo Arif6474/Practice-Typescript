@@ -14,9 +14,9 @@ interface personInterface {
     age: number;
     salary: number;
 }
-const result3 = createArray2<string, personInterface>('Arif Islam', {
-    age: 25,
-    salary:25000
-})
+// const result3 = createArray2<string, personInterface>('Arif Islam', {
+//     age: 25,
+//     salary:25000
+// })
 
-console.log(result3);
+// console.log(result3);
