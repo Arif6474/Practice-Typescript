@@ -1,7 +1,10 @@
+// 4-4: Type Guards / Type Narrowing
+
+
 //keyof guard
 type Alphaneumeric = string | number;
 // keyof guard
-function add(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
+function add2(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
   if (typeof param1 == "number" && typeof param2 === "number") {
     return param1 + param2;
   } else {
@@ -9,8 +12,8 @@ function add(param1: Alphaneumeric, param2: Alphaneumeric): Alphaneumeric {
   }
 }
 
-add("1", "2");
-add(1, 2);
+add2("1", "2");
+add2(1, 2);
 
 //in guard
 
